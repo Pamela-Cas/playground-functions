@@ -1,17 +1,15 @@
 // Desafio 1
-function compareTrue() {
-  // seu código aqui
-// teste commit
+function compareTrue(param1, param2) {
+  return (param1 && param2);
 }
-
 // Desafio 2
-function calcArea() {
-  // seu código aqui
+function calcArea(base, altura) {
+  return (base * altura) / 2;
 }
 
 // Desafio 3
 function splitSentence() {
-  // seu código aqui
+
 }
 
 // Desafio 4
