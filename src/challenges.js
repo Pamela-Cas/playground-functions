@@ -8,7 +8,7 @@ function calcArea(base, altura) {
 }
 // Desafio 3
 function splitSentence(param) {
-  return param.split(' ');
+  return param.split(' ');// referência: https://www.devmedia.com.br/javascript-split-dividindo-separando-strings/39254//
 }
 
 // Desafio 4
