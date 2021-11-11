@@ -6,10 +6,9 @@ function compareTrue(param1, param2) {
 function calcArea(base, altura) {
   return (base * altura) / 2;
 }
-
 // Desafio 3
-function splitSentence() {
-
+function splitSentence(param) {
+  return param.split(' ');
 }
 
 // Desafio 4
