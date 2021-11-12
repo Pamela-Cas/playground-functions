@@ -14,8 +14,11 @@ function splitSentence(param) {
 }
 
 // Desafio 4
-function concatName() {
-
+function concatName(recebe) {
+  let firstName = recebe[0];
+  let lastName = recebe[recebe.length - 1];
+  let strName = `${lastName},${firstName}`;
+  return concatName;
 }
 
 // Desafio 5
