@@ -1,3 +1,5 @@
+/* eslint-disable no-shadow */
+/* eslint-disable no-unused-vars */
 // Desafio 1
 function compareTrue(param1, param2) {
   return (param1 && param2);
@@ -13,17 +15,19 @@ function splitSentence(param) {
 
 // Desafio 4
 function concatName() {
-  // seu código aqui
+
 }
 
 // Desafio 5
-function footballPoints() {
-  // seu código aqui
+function footballPoints(wins, ties) {
+  let footballPoints = wins * 3 + ties;
+  return footballPoints;
 }
 
 // Desafio 6
 function highestCount() {
   // seu código aqui
+
 }
 
 // Desafio 7
