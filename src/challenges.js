@@ -62,7 +62,7 @@ function catAndMouse(mouse, cat1, cat2) {
 // console.log(catAndMouse(rato, gato1, gato2));
 
 // Desafio 8
-function fizzBuzz() {
+function fizzBuzz(arrNumbers) {
   let processed = [];
   arrNumbers.forEach((element) => {
     if (element % 3 === 0 && element % 5 === 0) {
@@ -70,7 +70,7 @@ function fizzBuzz() {
     } else if (element % 5 === 0) {
       processed.push('buzz');
     } else if (element % 3 === 0) {
-      processed.push('fizz!');
+      processed.push('fizz');
     } else {
       processed.push('bug!');
     }
