@@ -75,11 +75,11 @@ function fizzBuzz(arrNumbers) {
       processed.push('bug!');
     }
   });
-  return processed;
+  return processed; //
 }
 
 // Desafio 9
-function encode() {
+function encode(array) {
   // seu código aqui
 }
 
